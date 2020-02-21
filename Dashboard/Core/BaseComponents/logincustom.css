@@ -1,0 +1,159 @@
+body
+{
+	background: url(../images/bg.png) repeat;
+	background-color:#1B2336;
+	width:100%;
+	overflow:hidden;
+	-webkit-animation: slide 20s linear infinite;
+	font-family: OpenSans;
+}
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 400px 0; }
+}
+.login{
+	display:block;
+	margin:auto;
+	margin-top:17vh;
+}
+.otp .login-input,.otp .loginBtn {
+	margin-top:0px;
+}
+.otp .logo{
+	height:100px;
+	border:1px solid #FF0000;
+	width:100px;
+	box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.loginBtn{
+	background-color:#FF0000;
+	border-radius:50%;
+	color:#fff;
+	padding:14px;
+	margin-top:25px;
+	transform:rotate(270deg);
+	margin-left:15px;
+	cursor:pointer;
+}
+.label{
+	color:#fff;
+	margin-bottom:5px;
+	display:block;
+	text-align:left;
+	font-weight:bold;
+	font-size:16px;
+}
+.logo{
+	display:block;
+	margin:auto;
+	width:100px;
+	border-radius:50%;
+}
+#membershipId{
+	border:1px solid #D1AB66;
+	padding:8px 15px;
+	height:40px;
+}
+.login-input{
+	width: 35%;
+    display: block;
+    margin: auto;
+    padding-left: 80px;
+}
+.login-input-responsive{
+		width: 35%;
+		display: block;
+		margin: auto;
+		padding-left: 80px;
+	}
+@media (max-width: 767px)
+{
+	.login-input{
+		width:100%;
+		display:block;
+		margin:auto;
+		padding-left: 0px;
+	}
+	.logo{
+		display:block;
+		margin:auto;
+		width:70px;
+	}
+	.login-input-responsive{
+		width:100%;
+		display:block;
+		margin:auto;
+		padding: 3px;
+		margin-top: 35px;
+	}
+}
+.float-left{
+	float:left;
+}
+.login-box{
+	width:75%;
+}
+.welcome-text{
+	color:#d1ab66;
+	font-size:16px;
+	text-align:center;
+	font-weight:600;
+}
+.welcome-username{
+	color:#ffffff;
+	font-size:28px;
+	text-align:center;
+	text-transform:capitalize;
+	font-weight:600;
+}
+.input-group-alert .input-group-addon{
+	border:1px solid #FF0000 !important;
+	border-left:0px !important;
+}
+.input-group-alert .form-control{
+	border-right:0px !important;
+	height:40px;
+}
+.input-group .input-group-addon{
+	background-color:#fff;
+	border:1px solid #D1AB66 !important;
+	border-left:0px !important;
+	height:40px;
+}
+.input-group .form-control:focus{
+	box-shadow:inset 0 0 0;
+	border:1px solid #D1AB66 !important;
+	border-right:0px !important;
+}
+.input-group .form-control{
+	border-right:0px !important;
+	height:40px;
+}
+.send-otp-link{
+	color:#FF0000;
+	text-decoration:underline;
+	margin-top:10px;
+	display:block;
+	cursor:pointer;
+	font-weight:600;
+}
+.text-danger{
+	color:#ff0000;
+}
+.realtimelogo{
+	margin:auto;
+	display:block;
+	margin-top:20px;
+}
+.color_white{
+	color:#fff;
+}
+.fa-reply-all{
+	cursor:pointer;
+	color:#fff;
+	font-size:14px; 
+	margin-top:10px;
+}
+.membershipNumber{
+	text-align:center;
+}

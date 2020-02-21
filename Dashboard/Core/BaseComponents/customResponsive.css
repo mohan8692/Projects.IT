@@ -1,0 +1,365 @@
+@media (min-width: 100px) and (max-width:250px) {
+	.statusComponentUlCls {
+		display: table;
+		width: 100%;
+		background-color: #EBEBEB;
+		padding: 3px;
+	}
+	.componentLiCls li {
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		margin-left: 0px;
+	}
+	.componentLiCls li  h6{
+		font-size:12px !important
+	}
+	.componentLiCls li  h5{
+		font-size:13px !important
+	}
+	.smallComponentLi li  h6{
+		font-size:12px !important
+	}
+	.smallComponentLi li  h5{
+		font-size:13px !important
+	}
+	
+	.blocksLi li{
+		display: block;
+		position:relative;
+		background-color:#EDEDED;
+		padding:10px;
+		padding-bottom:0px;
+		border-radius:5px;
+		margin-left:10px;
+		border: 1px solid #ddd;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.responsiveViewCls{
+		display:block;
+	}
+	.responsiveView1Cls{
+		display:none;
+	}
+	.menu-cls{
+		float:right !important;
+		top: 0px;
+	}
+	.menu-data-cls{
+		right: 8px;
+		top: 57px;
+	}
+	.imgage_pos_center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		position: relative;
+		width: 120% !important;
+	}
+	.desktopViewCls{
+		display:none !important;
+	}
+	.mobileViewCls{
+		display:block !important;
+	}
+	.logoutIconMobileViewCls{
+		font-size: 24px;position: relative;top:17px;cursor:pointer;
+	}
+}
+@media (min-width: 100px) and (max-width:500px) {
+	
+	.statusComponentUlCls {
+		display: table;
+		width: 100%;
+		background-color: #EBEBEB;
+		padding: 3px;
+	}
+	.componentLiCls li {
+		display: inline-block;
+		text-align: center;
+		position: relative;
+		margin-left: 0px;
+	}
+	.componentLiCls li  h6{
+		font-size:12px !important
+	}
+	.componentLiCls li  h5{
+		font-size:13px !important
+	}
+	
+	.smallComponentLi li  h6{
+		font-size:12px !important
+	}
+	.smallComponentLi li  h5{
+		font-size:13px !important
+	}
+	
+	.headingColor
+	{
+		background:#fff;
+		color:#555;
+		border:1px solid #555;
+		padding:2px;
+	}
+	h4 .headingColor
+	{
+		font-size:11px !important;
+	}
+	.panelNewCustom .panel-heading
+	{
+		padding:3px 4px;
+	}
+	.panelNewCustom .panel-body  , .panelNew .panel-body
+	{
+		padding:5px;
+	}
+	.panelNew .panel-heading
+	{
+		padding:6px;
+	}
+	.collapseDebatesIcon:before {
+		/* symbol for "opening" panels */
+		font-family:'Glyphicons Halflings';
+		content:"\2212";
+		float: right;
+		font-size:10px;
+		margin-top:-4px;
+		font-weight:400 !important;
+		margin-left:-4px;
+		color:#4B5763;
+		border:1px solid #4B5763;
+		padding:2px 3px;
+	}
+	
+	.panelProfileView .panel-heading .panel-title
+	{
+		font-size:12px !important;
+	}
+	.pad_left0
+	{
+		padding-left:15px;
+	}
+	.pad_right0
+	{
+		padding-right:15px;
+	}
+	
+	.blocksLi li{
+		display: block;
+		position:relative;
+		background-color:#EDEDED;
+		padding:10px;
+		padding-bottom:0px;
+		border-radius:5px;
+		margin-left:10px;
+		border: 1px solid #ddd;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.responsiveViewCls{
+		display:block;
+	}
+	.responsiveView1Cls{
+		display:none;
+	}
+	.menu-cls{
+		float:right !important;
+		top: 0px;
+	}
+	.menu-data-cls{
+		right: 8px;
+		top: 57px;
+	}
+	.imgage_pos_center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		position: relative;
+		width: 120% !important;
+	}
+	.desktopViewCls{
+		display:none !important;
+	}
+	.mobileViewCls{
+		display:block !important;
+	}
+	.logoutIconMobileViewCls{
+		font-size: 24px;position: relative;top:17px;cursor:pointer;
+	}
+}
+@media (min-width: 500px) and (max-width:767px) {
+	
+	.committesBlockUl li
+	{
+		width:100%;
+		display:block;
+	}
+	.iconExpand , .notesIcon , .settingsIcon , .trainingIconExpand
+	{
+		margin-right:5px;
+	}
+	.pad_left0
+	{
+		padding-left:15px;
+	}
+	.pad_right0
+	{
+		padding-right:15px;
+	}
+	.blocksLi li{
+		display: block;
+		position:relative;
+		background-color:#EDEDED;
+		padding:10px;
+		padding-bottom:0px;
+		border-radius:5px;
+		margin-left:10px;
+		border: 1px solid #ddd;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.responsiveViewCls{
+		display:block;
+	}
+	.responsiveView1Cls{
+		display:none;
+	}
+	.menu-cls{
+		float:right !important;
+		top: 0px;
+	}
+	.menu-data-cls{
+		right: 8px;
+		top: 57px;
+	}
+	.imgage_pos_center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		position: relative;
+		width: 120% !important;
+	}
+	.desktopViewCls{
+		display:none !important;
+	}
+	.mobileViewCls{
+		display:block !important;
+	}
+	.logoutIconMobileViewCls{
+		font-size: 24px;position: relative;top:17px;cursor:pointer;
+	}
+}
+@media (min-width:769px) and  (max-width:991px){
+	.committesBlockUl li
+	{
+		width:47%;
+		display:inline-block;
+	}
+}
+@media (min-width:992px) and  (max-width:1500px){
+	.menu-data-cls
+	{
+		position:absolute;
+		right: 45px !important;
+		top: 74px;
+		width: 200px;
+		z-index:999;
+		display:none;
+		background-color:#fff;
+	}
+	
+	.desktopViewCls{
+		display:block !important;
+	}
+	.mobileViewCls{
+		display:none !important;
+	}
+}
+@media (min-width:1200px){
+	.desktopViewCls{
+		display:block !important;
+	}
+	.mobileViewCls{
+		display:none !important;
+	}
+}
+@media (min-width:767px) and  (max-width:768px){
+	.pad_left0
+	{
+		padding-left:15px;
+	}
+	.pad_right0
+	{
+		padding-right:15px;
+	}
+	
+	.desktopViewCls{
+		display:block !important;
+	}
+	.mobileViewCls{
+		display:none !important;
+	}
+}
+/* Ipad Only STYLES START*/
+@media only screen and (device-width: 768px) {
+	
+	.pad_left0
+	{
+		padding-left:15px;
+	}
+	.pad_right0
+	{
+		padding-right:15px;
+	}
+	.committesBlockUl li
+	{
+		width:47%;
+		display:inline-block;
+	}
+	.headingColor
+	{
+		font-size:16px;
+	}
+	.activeUlCls
+	{
+		margin-top:10px;
+	}
+	
+}
+@media only screen and (device-width: 1024px) {
+	
+	.activeUlCls li
+	{
+		font-size:12px;
+	}
+	.iconExpand , .notesIcon , .settingsIcon , .trainingIconExpand , .basicCommitteesBlockDiv , .notesIconTraining
+	{
+		margin-right:7px;
+	}
+	.headingColor , h4.bg_49
+	{
+		font-size:14px;
+	}
+	.settingsDropDownOptionsView
+	{
+		min-width:320px !important;
+	}
+	.basicCommitteesBlockDropDown
+	{
+		width:250px !important;
+	}
+	
+	.desktopViewCls{
+		display:block !important;
+	}
+	.mobileViewCls{
+		display:none !important;
+	}
+	
+}
+
+/* Ipad Only STYLES END */
